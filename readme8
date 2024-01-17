@@ -1,0 +1,69 @@
+CREATE TABLE employee (
+    id INTEGER, 
+	name VARCHAR(50), 
+	birthday DATE, 
+	email VARCHAR(100)
+	);
+
+
+update employee set name ='Boran'where id = 1;
+update employee set name ='Michael'where id = 2;
+update employee set name ='Jordan'where id = 3;
+update employee set name ='Esin'where id = 4;
+update employee set name ='Camlik'where id = 5;
+
+
+delete from employee where id = 6;
+delete from employee where id = 7;
+delete from employee where id = 8;
+delete from employee where id = 9;
+delete from employee where id = 10;
+
+data:
+
+"id"	"name"	"birthday"	"email"
+11	"Lennie"	"1970-11-26"	"lseekinga@fema.gov"
+12	"Rhodia"	"2000-01-11"	"rwhitlawb@indiatimes.com"
+13	"Devon"	"1995-09-12"	"dbussyc@chronoengine.com"
+14	"Billie"	"1972-05-31"	"bbuddend@amazon.co.jp"
+15	"Berta"	"1948-02-13"	"bhurlle@smh.com.au"
+16	"Adorne"	"1942-11-14"	"ahardsonf@imdb.com"
+17	"Anjela"	"2005-10-14"	"aphilliskirkg@ovh.net"
+18	"Dilly"	"1963-11-03"	"dpresterh@examiner.com"
+19	"Beverlie"	"2001-12-04"	"bobeneyi@instagram.com"
+20	"York"	"1977-11-25"	"ystallionj@vinaora.com"
+21	"Maggi"	"1944-01-26"	"mfentonk@i2i.jp"
+22	"Demeter"	"1992-02-14"	"dlillgardl@goo.ne.jp"
+23	"Jimmy"	"1972-09-12"	"jgallom@zdnet.com"
+24	"Walsh"	"1969-04-28"	"wakedn@biblegateway.com"
+25	"Arnuad"	"1961-03-27"	"ahoundsomo@usnews.com"
+26	"Christoforo"	"1969-12-15"	"ceaglesp@toplist.cz"
+27	"Joelly"	"1990-10-06"	"jdruhanq@google.cn"
+28	"Ddene"	"1947-11-05"	"dquennellr@nsw.gov.au"
+29	"Tobias"	"1964-12-06"	"tronaghans@msu.edu"
+30	"Ariadne"	"1959-08-06"	"aearpet@ning.com"
+31	"Zelma"	"1960-08-05"	"zfowlestoneu@cafepress.com"
+32	"Putnam"	"1972-05-04"	"pbrothertonv@utexas.edu"
+33	"Joly"	"1957-03-26"	"jstpaulw@fotki.com"
+34	"Fifine"	"1962-08-28"	"flawrancex@flickr.com"
+35	"Piggy"	"1972-08-31"	"parnfieldy@toplist.cz"
+36	"Leda"	"1975-11-22"	"ledgingtonz@reddit.com"
+37	"Wyatt"	"1992-05-19"	"wscuffham10@washingtonpost.com"
+38	"Theobald"	"1957-04-15"	"tmackrell11@opera.com"
+39	"Cathrin"	"1987-06-06"	"cpuddle12@vk.com"
+40	"Simone"	"1989-11-21"	"srockall13@ycombinator.com"
+41	"Terrill"	"1992-06-23"	"ttwiddell14@wikispaces.com"
+42	"Lorrie"	"1961-02-06"	"lcubbit15@jiathis.com"
+43	"Raffaello"	"1950-10-01"	"rlevinge16@webs.com"
+44	"Hermina"	"1994-01-28"	"hmunslow17@hexun.com"
+45	"Jeddy"	"1945-09-06"	"jroobottom18@fema.gov"
+46	"Vyky"	"1974-08-01"	"vbrandreth19@plala.or.jp"
+47	"Kippie"	"1982-10-16"	"kearland1a@nymag.com"
+48	"Harman"	"1959-08-23"	"hfrancino1b@nbcnews.com"
+49	"Gabbey"	"1990-02-17"	"gcoulson1c@hostgator.com"
+50	"Allissa"	"1971-03-22"	"astarrs1d@shareasale.com"
+1	"Boran"	"1960-04-10"	"tdefew0@kickstarter.com"
+4	"Esin"	"1947-12-14"	"msked3@apple.com"
+5	"Camlik"	"1995-12-22"	"olain4@sakura.ne.jp"
+2	"Michael"	"2003-09-27"	"rallum1@wsj.com"
+3	"Jordan"	"1943-10-13"	"cguenther2@cornell.edu"
