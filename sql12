@@ -1,0 +1,26 @@
+--Ortalama Film Uzunluğundan Fazla Uzunluğa Sahip Filmlerin Sayısı
+
+SELECT COUNT(*)
+FROM film
+WHERE length > (SELECT AVG(length) FROM film);
+
+--En Yüksek Rental Rate Değerine Sahip Filmlerin Sayısı
+
+SELECT COUNT(*)
+FROM film
+WHERE rental_rate = (SELECT MAX(rental_rate) FROM film);
+
+--En Düşük Rental Rate ve En Düşük Replacement Cost Değerlerine Sahip Filmler
+
+SELECT *
+FROM film
+WHERE rental_rate = (SELECT MIN(rental_rate) FROM film)
+AND replacement_cost = (SELECT MIN(replacement_cost) FROM film);
+
+--En Fazla Sayıda Alışveriş Yapan Müşteriler
+
+SELECT customer_id, COUNT(*) as payment_count
+FROM payment
+GROUP BY customer_id
+ORDER BY payment_count DESC
+LIMIT 10;  -- Örneğin ilk 10 müşteri
